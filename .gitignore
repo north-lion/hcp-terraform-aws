@@ -1,0 +1,5 @@
+# Ignore IDEA files
+.idea
+
+# Ignore Terraform X509 Certificate
+app.terraform.io.crt
