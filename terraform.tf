@@ -6,7 +6,7 @@ terraform {
     organization = "north-lion-terraform-org" # Organization name
 
     workspaces {
-      name = "hpc-terraform-aws" # Workspace name: Creates the HCP Terraform workspace in this name, if it does not already exist.
+      name = "hcp-terraform-aws" # Workspace name: Creates the HCP Terraform workspace in this name, if it does not already exist.
     }
   }
 
