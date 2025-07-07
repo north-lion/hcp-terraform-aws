@@ -8,3 +8,7 @@ variable "provider_region" {
   description = "Default region to place resources"
   type        = string
 }
+variable "value_wo_version" {
+  description = "If change ephemeral value, please Change this version"
+  type        = number
+}
