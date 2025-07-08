@@ -12,3 +12,9 @@ variable "value_wo_version" {
   description = "If change ephemeral value, please Change this version"
   type        = number
 }
+variable "project" {
+  type = string
+}
+variable "username" {
+  type = string
+}
