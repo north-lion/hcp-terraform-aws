@@ -23,7 +23,7 @@ resource "aws_s3_bucket_public_access_block" "test" {
 }
 
 module "sub" {
-  source = "module"
+  source = "./module"
   secret = var.secret
   value_wo_version = var.value_wo_version
 }
