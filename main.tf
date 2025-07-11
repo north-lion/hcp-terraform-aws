@@ -21,3 +21,9 @@ resource "aws_s3_bucket_public_access_block" "test" {
   ignore_public_acls      = true
   restrict_public_buckets = true
 }
+
+module "sub" {
+  source = "module"
+  secret = var.secret
+  value_wo_version = var.value_wo_version
+}
